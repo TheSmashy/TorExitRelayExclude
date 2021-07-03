@@ -10,3 +10,5 @@ UseMicrodescriptors 0
 ```
 
 Run after service is fully bootstrapped.
+
+[See here](https://github.com/nusenu/noContactInfo_Exit_Excluder) for orignal script for use with the Tor Browser.
