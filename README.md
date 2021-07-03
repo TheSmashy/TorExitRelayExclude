@@ -3,7 +3,8 @@ Python script to exclude Tor exit relays with no contact info set.  Adapted from
 
 Requires the following in `/etc/tor/torrc`
 
-``` ControlSocket /var/run/tor/control GroupWritable RelaxDirModeCheck
+``` 
+ControlSocket /var/run/tor/control GroupWritable RelaxDirModeCheck
 
 UseMicrodescriptors 0 ```
 
