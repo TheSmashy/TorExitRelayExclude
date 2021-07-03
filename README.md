@@ -6,6 +6,7 @@ Requires the following in `/etc/tor/torrc`
 ``` 
 ControlSocket /var/run/tor/control GroupWritable RelaxDirModeCheck
 
-UseMicrodescriptors 0 ```
+UseMicrodescriptors 0 
+```
 
-Must run after service is fully bootstrapped.
+Run after service is fully bootstrapped.
