@@ -39,6 +39,6 @@ try:
     controller.set_conf('ExcludeExitNodes', exit_excludelist)
     print('##################################################################################')
     print('Excluded a total of %s exit relays without ContactInfo from the exit position.' % len(exit_excludelist))
-    print('This tor configuration change is not permanently stored (non-persistent). A Tor Browser restart will revert this change.')
+    print('This tor configuration change is not permanently stored (non-persistent). A Tor Service restart will revert this change.')
 except:
     print('Failed to exclude ExitNodes!')
